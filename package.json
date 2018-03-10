@@ -1,0 +1,16 @@
+{
+    "description": "A full Bitcoin node build with Bitcore",
+    "repository": "https://github.com/user/project",
+    "license": "MIT",
+    "readme": "README.md",
+    "insightConfig": {
+        "apiPrefix": "insight-ssc-api",
+        "routePrefix": ""
+    },
+    "dependencies": {
+        "bitcore-lib": "https://github.com/searchcoin/searchcore-lib.git",
+        "bitcore-node": "https://github.com/searchcoin/bitcore-node.git",
+        "insight-ssc": "https://github.com/searchcoin/insight-ssc.git",
+        "insight-ssc-api": "https://github.com/searchcoin/insight-ssc-api.git"
+    }
+}
