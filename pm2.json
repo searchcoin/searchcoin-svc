@@ -2,7 +2,8 @@
     "apps": [{
         "name": "insight-ssc",
         "script": "start.js",
-        "watch": true,
-        "exec_interpreter": "node@6.11.4"
+        "watch": false,
+        "args":["start"],
+        "exec_interpreter": "node@6.12.0"
     }]
 }
